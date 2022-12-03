@@ -18,7 +18,8 @@ Note: We have provided the API keys for the tweitter API. However, these will ex
 1. pip install -r requirements.txt
 2. Download Jupyter Notebook if you want to do some visualizations
 3. Run get_tweets_and_prediction.py or get_tweets_and_prediction.ipynb (if using Jupyter Notebook). 
-* This will hit the twitter API every 30 mins. It will fetch tweets from Twitter, make predictions on them, select the most informative tweet and compare similarity with previous 6 hours data for any similar news.
+* This will hit the twitter API every 30 mins.(You can change this in Part 7 of the code)
+* It will fetch tweets from Twitter, make predictions on them, select the most informative tweet and compare similarity with previous 6 hours data for any similar news.
 * After every 30 mins, the Node backend will receive tweets and corresponding information that will be processed, will be saved to the database. The data will then be used for API endpoints from where frontend can utilize different features.
 4. The above command will also save upto 24 hours data which can be visualized in Graphs.py or Graphs.ipynb
 
